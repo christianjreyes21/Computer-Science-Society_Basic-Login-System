@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Context>
+
+  <Resource name="jdbc/CSS-DS" auth="Container"
+            type="javax.sql.DataSource" username="admin" password="1234"
+            driverClassName="net.sourceforge.jtds.jdbc.Driver" 
+            url="jdbc:jtds:sqlserver://localhost:1433;DatabaseName=CSS;SelectMethod=cursor;"
+            maxActive="50" 
+            />
+
+</Context>
